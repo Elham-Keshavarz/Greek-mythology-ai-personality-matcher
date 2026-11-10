@@ -1,53 +1,66 @@
-# GitHub publication checklist (Windows PowerShell)
+# GitHub Release Checklist
 
-This project is **prepared for GitHub** but has not been pushed to your account. You remain in control of the repository name, visibility, screenshots and publication.
+This document provides a repeatable checklist for preparing, validating, and publishing updates to the **Greek Mythology AI Personality Matcher** repository.
 
-## Before committing
+The repository is already hosted on GitHub. These steps apply to future changes and releases.
 
-- [ ] Run the full local test suite (`python -m pytest -q`) and confirm that all tests actually executed pass; review any skipped tests.
-- [ ] Verify local FAISS indexing and real RAG responses, including an unsupported question.
-- [ ] Test the 50-question Streamlit navigation and personalized local result in a browser.
-- [ ] If using hosted LLM, ensure it produces a cited answer and requires consent for sending derived scores.
-- [ ] Confirm `README.md` reflects actual behavior and that the small benchmark limitations are conspicuous.
-- [ ] Consider capturing **your own screenshots** as described in [SCREENSHOTS.md](SCREENSHOTS.md); no fake previews are bundled.
-- [ ] Run the release safety checks below. Never upload `.env` or personal audit CSV/JSON files.
+## 1. Code Quality and Automated Tests
 
-## Run offline checks
+Before publishing changes:
 
-From the root containing `app.py`:
+- [ ] Confirm that the application runs successfully.
+- [ ] Run all automated tests.
+- [ ] Verify that all required tests pass.
+- [ ] Review failed or skipped tests.
+- [ ] Ensure new features include appropriate tests.
 
 ```powershell
-.venv\Scripts\python -m pytest -q
-.venv\Scripts\python -m tools.check_release
+python -m pytest -q
 ```
 
-## Initialize your repository
+## 2. RAG and Retrieval Validation
 
-Create an **empty** repository at GitHub (without a generated README or license, because this project already includes both), then in the project folder:
+- [ ] Verify that the FAISS index can be built.
+- [ ] Test retrieval with supported mythology questions.
+- [ ] Test evidence rejection with unsupported questions.
+- [ ] Run the retrieval evaluation benchmark.
+- [ ] Review changes in retrieval and evidence-gate metrics.
 
 ```powershell
-git init
-git branch -M main
-git add .
+python -m src.rag.build_index
+python -m src.rag.evaluate --suite both --compare
+```
+
+Benchmark results must include their evaluation methodology and limitations. Results from small, hand-authored datasets must not be presented as general model accuracy.
+
+## 3. OpenAI Integration
+
+- [ ] Confirm that API credentials are loaded from environment variables.
+- [ ] Run the live API smoke test when appropriate.
+- [ ] Verify that generated answers include valid source citations.
+- [ ] Confirm that unsupported questions do not trigger unnecessary LLM calls.
+- [ ] Review representative generated answers for factual grounding.
+
+```powershell
+python -m tools.live_api_smoke
+```
+
+Live API tests require a valid OpenAI API key and may incur usage costs. They are not required for every local change.
+
+## 4. Security and Privacy
+
+- [ ] Confirm that `.env` and virtual environments are excluded from Git.
+- [ ] Ensure `.env.example` contains placeholders only.
+- [ ] Check notebooks for saved credentials and sensitive outputs.
+- [ ] Run the release security scanner.
+- [ ] Review staged files before committing.
+- [ ] Confirm that no personal information or API credentials are exposed.
+
+```powershell
+python -m tools.check_release
 git status --short
-git diff --cached --name-only
+git --no-pager diff --cached --check
+git --no-pager diff --cached --name-only
 ```
 
-**Stop if you see `.env`, `.venv/`, `data/rag_index/`, personally identifying screenshots, private transcripts or local audit reports staged.** Remove them from the staging area before proceeding. `.env.example` is safe: it contains blank credentials.
-
-```powershell
-git commit -m "Prepare Greek mythology personality matcher for publication"
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-git push -u origin main
-```
-
-Replace `YOUR_USERNAME` and `YOUR_REPOSITORY` with your real GitHub choices. If the remote already exists, use `git remote -v` and update it appropriately rather than blindly adding a duplicate. No GitHub token needs to be put in the repository or scripts.
-
-## After pushing
-
-- In **Actions**, check that the Python 3.11 and 3.12 CI matrix runs and passes. These are **offline tests**, not a live OpenAI or full browser test.
-- Confirm that the README renders its Mermaid diagram and all relative links.
-- Give the repository an informative description and a few accurate topics such as `rag`, `faiss`, `sentence-transformers`, `streamlit`, `openai`, `big-five`.
-- Attach only **real** UI screenshots after checking that they contain no API keys, raw questionnaire answers or other private information.
-
-If you already have a local copy, update the source files while preserving `.env` and `.venv`, run tests, and review `git diff` before committing. No new environment is necessary unless dependencies changed.
+Automated secret scanning is a safeguard, not a guarantee
