@@ -1,0 +1,30 @@
+Greek Mythology AI Personality Matcher — GitHub-ready project
+==================================================================
+
+Open README.md for the full English installation and project description.
+
+FAST START — WINDOWS POWERSHELL (from the directory containing app.py):
+
+  py -3.11 -m venv .venv
+  .venv\Scripts\python -m pip install -r requirements.txt
+  .venv\Scripts\python -m src.rag.build_index
+  .venv\Scripts\python -m pytest -q
+  .venv\Scripts\python -m streamlit run app.py
+
+For OpenAI, COPY .env.example -> .env (IN THIS DIRECTORY, NOT .venv), then set:
+  OPENAI_API_KEY=your_actual_key
+  OPENAI_MODEL=gpt-4.1-mini
+
+Offline RAG query:
+  .venv\Scripts\python -m src.rag.ask "What plant and bird are Athena's symbols?"
+
+Optional hosted LLM query (may incur API charges):
+  .venv\Scripts\python -m src.rag.ask --llm "How are Apollo and Artemis related?"
+
+Before posting to GitHub:
+  .venv\Scripts\python -m tools.check_release
+  Read docs/GITHUB_PUBLISH.md; never commit .env or personal audit reports.
+
+The questionnaire has 50 intentionally related/reverse-worded IPIP items.
+The 45 mythic Big Five profiles are creative interpretive scores, not a
+scientifically validated personality model. Evidence gate checks are heuristic.

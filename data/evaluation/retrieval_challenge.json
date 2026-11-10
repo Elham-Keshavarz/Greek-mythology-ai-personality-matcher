@@ -1,0 +1,85 @@
+{
+  "description": "Separately authored challenge prompts for manual error analysis, not independently sampled or externally annotated. Not a statistical generalization benchmark.",
+  "positive": [
+    {
+      "question": "What plant and bird are traditional Athena symbols?",
+      "expected_document_id": "athena-wisdom"
+    },
+    {
+      "question": "Who wears winged sandals and carries a herald staff?",
+      "expected_document_id": "hermes-messenger"
+    },
+    {
+      "question": "Which god is a brother of Zeus and Poseidon and rules the underworld?",
+      "expected_document_id": "hades-underworld"
+    },
+    {
+      "question": "Which goddess is associated with crossroads and torches?",
+      "expected_document_id": "hecate-crossroads"
+    },
+    {
+      "question": "Who is associated with metalworking and the forge?",
+      "expected_document_id": "hephaestus-forge"
+    },
+    {
+      "question": "Which god has the trident as a traditional emblem?",
+      "expected_document_id": "poseidon-seas"
+    },
+    {
+      "question": "Which deity is connected with the sacred fire of the home?",
+      "expected_document_id": "hestia-hearth"
+    },
+    {
+      "question": "Who personifies victory and is often shown winged?",
+      "expected_document_id": "nike-victory"
+    },
+    {
+      "question": "What does Hypnos embody?",
+      "expected_document_id": "hypnos-sleep"
+    },
+    {
+      "question": "What was Demeter’s response to Persephone’s removal to the underworld?",
+      "expected_document_id": "demeter-persephone"
+    },
+    {
+      "question": "Who are the children of Leto?",
+      "expected_document_id": "apollo-artemis"
+    },
+    {
+      "question": "Which deity is associated with wine and ecstatic celebration?",
+      "expected_document_id": "dionysus-theatre"
+    }
+  ],
+  "negative": [
+    {
+      "question": "What brand of smartphone did Athena own?"
+    },
+    {
+      "question": "What online game did Hera play?"
+    },
+    {
+      "question": "What date did Hermes create an email account?"
+    },
+    {
+      "question": "How many social media followers does Zeus have?"
+    },
+    {
+      "question": "What kind of computer did Hephaestus build?"
+    },
+    {
+      "question": "Which laptop model did Ares buy?"
+    },
+    {
+      "question": "Which deity won the Greek gods football league?"
+    },
+    {
+      "question": "What is the license plate of Helios’s car?"
+    },
+    {
+      "question": "How are Aphrodite and Hypnos related?"
+    },
+    {
+      "question": "What year was Hypnos born?"
+    }
+  ]
+}

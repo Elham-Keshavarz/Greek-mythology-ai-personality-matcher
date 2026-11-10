@@ -1,0 +1,10 @@
+[
+  {"question": "What does Athena represent?", "expected_document_id": "athena-wisdom"},
+  {"question": "Who are Apollo and Artemis's parents?", "expected_document_id": "apollo-artemis"},
+  {"question": "What is the link between Demeter and Persephone and the seasons?", "expected_document_id": "demeter-persephone"},
+  {"question": "Who carries messages between the Olympian gods?", "expected_document_id": "hermes-messenger"},
+  {"question": "Who rules the underworld?", "expected_document_id": "hades-underworld"},
+  {"question": "Who is the Greek goddess of love and desire?", "expected_document_id": "aphrodite-love"},
+  {"question": "Which Greek god uses a trident and rules the sea?", "expected_document_id": "poseidon-seas"},
+  {"question": "Who is the god associated with the hearth and home?", "expected_document_id": "hestia-hearth"}
+]

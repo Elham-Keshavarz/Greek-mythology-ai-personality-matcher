@@ -1,0 +1,37 @@
+[
+  {
+    "question": "Who are Apollo and Artemis's parents?",
+    "should_answer": true,
+    "review_hint": "Zeus and Leto; twin siblings in Greek myth"
+  },
+  {
+    "question": "What is Hypnos the personification of?",
+    "should_answer": true,
+    "review_hint": "Sleep"
+  },
+  {
+    "question": "Why did Demeter grieve when Persephone disappeared?",
+    "should_answer": true,
+    "review_hint": "Persephone's removal to the underworld caused their separation and Demeter's grief"
+  },
+  {
+    "question": "Who rules the underworld?",
+    "should_answer": true,
+    "review_hint": "Hades"
+  },
+  {
+    "question": "What smartphone did Zeus use?",
+    "should_answer": false,
+    "review_hint": "No supported smartphone information in mythology corpus"
+  },
+  {
+    "question": "What model of car did Apollo drive?",
+    "should_answer": false,
+    "review_hint": "No supported car model in mythology corpus"
+  },
+  {
+    "question": "What was Athena's laptop brand?",
+    "should_answer": false,
+    "review_hint": "No supported laptop brand in mythology corpus"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "provenance": "Observed user-run benchmark on Windows PowerShell, 2026-11-10; transcribed from terminal output",
+  "status": "observed_on_an_earlier_build_not_rerun_for_this_packaging_update",
+  "command": "python -m src.rag.evaluate --suite both --compare",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "methodology": "Small hand-authored corpus-derived sets, not independent validation or general-population accuracy",
+  "regression": {
+    "current_gate": {
+      "positive_count": 13,
+      "negative_count": 6,
+      "hit@5": 1.0,
+      "mrr@5": 0.9230769230769231,
+      "positive_gate_accept_rate": 1.0,
+      "negative_gate_rejection_rate": 1.0,
+      "balanced_gate_accuracy": 1.0,
+      "false_reject_count": 0,
+      "false_accept_count": 0
+    },
+    "raw_faiss": {
+      "count": 13,
+      "hit@5": 1.0,
+      "mrr@5": 0.7269230769230769
+    }
+  },
+  "challenge": {
+    "current_gate": {
+      "positive_count": 12,
+      "negative_count": 10,
+      "hit@5": 1.0,
+      "mrr@5": 0.9583333333333334,
+      "positive_gate_accept_rate": 1.0,
+      "negative_gate_rejection_rate": 1.0,
+      "balanced_gate_accuracy": 1.0,
+      "false_reject_count": 0,
+      "false_accept_count": 0
+    },
+    "raw_faiss": {
+      "count": 12,
+      "hit@5": 1.0,
+      "mrr@5": 0.8611111111111112
+    }
+  }
+}

@@ -1,0 +1,28 @@
+# Local environments, secrets and development tools
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.idea/
+.vscode/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# User-generated data and vector caches (rebuild from source documents)
+data/raw/*.csv
+data/processed/*.csv
+data/rag_index/*
+!data/rag_index/.gitkeep
+
+# Local provider outputs / review data can include questions or trait scores
+reports/local_*
+reports/*_live*.json
+data/evaluation/local_results_*.json

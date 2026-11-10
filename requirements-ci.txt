@@ -1,0 +1,9 @@
+# Lightweight CI: tests use fake embeddings/LLM and do not download model weights.
+# Full interactive app dependencies live in requirements.txt.
+pytest>=8,<10
+numpy>=1.26,<3
+pandas>=2,<3
+faiss-cpu>=1.9,<2
+rapidfuzz>=3.5,<4
+python-dotenv>=1,<2
+openai>=2,<4

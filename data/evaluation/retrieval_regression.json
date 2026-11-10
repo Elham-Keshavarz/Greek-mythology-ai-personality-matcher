@@ -1,0 +1,26 @@
+{
+  "description": "Small author-written, corpus-derived retrieval regression set. Not a held-out performance benchmark.",
+  "positive": [
+    {"question": "What does Athena represent?", "expected_document_id": "athena-wisdom"},
+    {"question": "Who are Apollo and Artemis's parents?", "expected_document_id": "apollo-artemis"},
+    {"question": "How are apolo and atemis related?", "expected_document_id": "apollo-artemis"},
+    {"question": "What is the link between Demeter and Persephone and the seasons?", "expected_document_id": "demeter-persephone"},
+    {"question": "Who carries messages between the Olympian gods?", "expected_document_id": "hermes-messenger"},
+    {"question": "Which Greek deity represents clever communication and traveling?", "expected_document_id": "hermes-messenger"},
+    {"question": "Who rules the underworld?", "expected_document_id": "hades-underworld"},
+    {"question": "Who is the Greek goddess of love and desire?", "expected_document_id": "aphrodite-love"},
+    {"question": "Which Greek god uses a trident and rules the sea?", "expected_document_id": "poseidon-seas"},
+    {"question": "Who is the god associated with the hearth and home?", "expected_document_id": "hestia-hearth"},
+    {"question": "Why did Demeter grieve when Persephone disappeared?", "expected_document_id": "demeter-persephone"},
+    {"question": "What is an owl a symbol of for Athena?", "expected_document_id": "athena-wisdom"},
+    {"question": "What does Hypnos personify?", "expected_document_id": "hypnos-sleep"}
+  ],
+  "negative": [
+    {"question": "What smartphone did Zeus use?"},
+    {"question": "What was Athena's laptop brand?"},
+    {"question": "What model of car did Apollo drive?"},
+    {"question": "What is Hermes's internet password?"},
+    {"question": "What are the social media accounts of Hades?"},
+    {"question": "How are Hera and Atlas related?"}
+  ]
+}

@@ -1,0 +1,677 @@
+[
+  {
+    "name": "Athena",
+    "description": "Goddess of wisdom, strategy, and skilled crafts.",
+    "rationale": "A deliberately interpretive portrait emphasizing strategic thinking, discipline, and composure.",
+    "traits": {
+      "openness": 0.9,
+      "conscientiousness": 0.95,
+      "extraversion": 0.45,
+      "agreeableness": 0.55,
+      "neuroticism": 0.2
+    },
+    "gender": "female",
+    "category": "Olympian",
+    "source_url": "https://www.theoi.com/greek-mythology/olympian-gods.html"
+  },
+  {
+    "name": "Zeus",
+    "description": "King of the gods, associated with the sky, authority, and thunder.",
+    "rationale": "An interpretive portrait emphasizing visibility, ambition, and assertive leadership; not a moral endorsement.",
+    "traits": {
+      "openness": 0.65,
+      "conscientiousness": 0.65,
+      "extraversion": 0.95,
+      "agreeableness": 0.35,
+      "neuroticism": 0.65
+    },
+    "gender": "male",
+    "category": "Olympian",
+    "source_url": "https://www.theoi.com/greek-mythology/olympian-gods.html"
+  },
+  {
+    "name": "Hermes",
+    "description": "Messenger of the gods, associated with travel, language, and trade.",
+    "rationale": "An interpretive portrait emphasizing curiosity, adaptability, and sociability.",
+    "traits": {
+      "openness": 0.9,
+      "conscientiousness": 0.5,
+      "extraversion": 0.95,
+      "agreeableness": 0.55,
+      "neuroticism": 0.35
+    },
+    "gender": "male",
+    "category": "Olympian",
+    "source_url": "https://www.theoi.com/greek-mythology/olympian-gods.html"
+  },
+  {
+    "name": "Artemis",
+    "description": "Goddess of the hunt, wilderness, and wild animals.",
+    "rationale": "An interpretive portrait emphasizing independence, focus, and self-reliance.",
+    "traits": {
+      "openness": 0.75,
+      "conscientiousness": 0.85,
+      "extraversion": 0.35,
+      "agreeableness": 0.5,
+      "neuroticism": 0.3
+    },
+    "gender": "female",
+    "category": "Olympian",
+    "source_url": "https://www.theoi.com/greek-mythology/olympian-gods.html"
+  },
+  {
+    "name": "Apollo",
+    "description": "God associated with music, healing, poetry, and prophecy.",
+    "rationale": "An interpretive portrait emphasizing creativity, skill development, and expressiveness.",
+    "traits": {
+      "openness": 0.95,
+      "conscientiousness": 0.75,
+      "extraversion": 0.65,
+      "agreeableness": 0.6,
+      "neuroticism": 0.4
+    },
+    "gender": "male",
+    "category": "Olympian",
+    "source_url": "https://www.theoi.com/greek-mythology/olympian-gods.html"
+  },
+  {
+    "name": "Aphrodite",
+    "description": "Goddess of beauty, love, and desire.",
+    "rationale": "An interpretive portrait emphasizing relational warmth, aesthetic sensitivity, and social influence.",
+    "traits": {
+      "openness": 0.9,
+      "conscientiousness": 0.45,
+      "extraversion": 0.85,
+      "agreeableness": 0.8,
+      "neuroticism": 0.55
+    },
+    "gender": "female",
+    "category": "Olympian",
+    "source_url": "https://www.theoi.com/greek-mythology/olympian-gods.html"
+  },
+  {
+    "name": "Ares",
+    "description": "God associated with war, conflict, and courage.",
+    "rationale": "An interpretive portrait emphasizing intensity, impulsivity, and competitive drive; not a moral endorsement.",
+    "traits": {
+      "openness": 0.45,
+      "conscientiousness": 0.5,
+      "extraversion": 0.85,
+      "agreeableness": 0.2,
+      "neuroticism": 0.85
+    },
+    "gender": "male",
+    "category": "Olympian",
+    "source_url": "https://www.theoi.com/greek-mythology/olympian-gods.html"
+  },
+  {
+    "name": "Demeter",
+    "description": "Goddess of agriculture, harvest, and nourishment.",
+    "rationale": "An interpretive portrait emphasizing responsibility, care, loyalty, and emotional investment.",
+    "traits": {
+      "openness": 0.6,
+      "conscientiousness": 0.9,
+      "extraversion": 0.35,
+      "agreeableness": 0.95,
+      "neuroticism": 0.55
+    },
+    "gender": "female",
+    "category": "Olympian",
+    "source_url": "https://www.theoi.com/greek-mythology/olympian-gods.html"
+  },
+  {
+    "name": "Hera",
+    "gender": "female",
+    "category": "Olympian",
+    "description": "Queen of the gods; associated with marriage and royal authority.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes dignity, loyalty, duty, and resistance to betrayal.",
+    "traits": {
+      "openness": 0.65,
+      "conscientiousness": 0.9,
+      "extraversion": 0.65,
+      "agreeableness": 0.5,
+      "neuroticism": 0.68
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/olympian-gods.html"
+  },
+  {
+    "name": "Poseidon",
+    "gender": "male",
+    "category": "Olympian",
+    "description": "God of the sea, earthquakes, and horses.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes forceful independence, intensity, and emotional volatility.",
+    "traits": {
+      "openness": 0.7,
+      "conscientiousness": 0.45,
+      "extraversion": 0.8,
+      "agreeableness": 0.3,
+      "neuroticism": 0.8
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/olympian-gods.html"
+  },
+  {
+    "name": "Hades",
+    "gender": "male",
+    "category": "Underworld",
+    "description": "God and ruler of the realm of the dead.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes reserve, steadfastness, privacy, and persistence.",
+    "traits": {
+      "openness": 0.5,
+      "conscientiousness": 0.85,
+      "extraversion": 0.25,
+      "agreeableness": 0.45,
+      "neuroticism": 0.3
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/greek-gods.html"
+  },
+  {
+    "name": "Hestia",
+    "gender": "female",
+    "category": "Olympian",
+    "description": "Goddess of the hearth and home.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes steadiness, care, humility, and tranquility.",
+    "traits": {
+      "openness": 0.45,
+      "conscientiousness": 0.9,
+      "extraversion": 0.2,
+      "agreeableness": 0.95,
+      "neuroticism": 0.15
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/olympian-gods.html"
+  },
+  {
+    "name": "Hephaestus",
+    "gender": "male",
+    "category": "Olympian",
+    "description": "God of smithing, craftsmanship, and fire.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes technical ingenuity, perseverance, and reserved focus.",
+    "traits": {
+      "openness": 0.9,
+      "conscientiousness": 0.95,
+      "extraversion": 0.2,
+      "agreeableness": 0.6,
+      "neuroticism": 0.4
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/olympian-gods.html"
+  },
+  {
+    "name": "Dionysus",
+    "gender": "male",
+    "category": "Olympian",
+    "description": "God associated with wine, festivals, theater, and ecstasy.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes creative experimentation, expressiveness, and spontaneity.",
+    "traits": {
+      "openness": 0.95,
+      "conscientiousness": 0.35,
+      "extraversion": 0.95,
+      "agreeableness": 0.65,
+      "neuroticism": 0.65
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/olympian-gods.html"
+  },
+  {
+    "name": "Persephone",
+    "gender": "female",
+    "category": "Underworld",
+    "description": "Goddess associated with spring growth and queen of the underworld.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes adaptability, emotional insight, and transformation.",
+    "traits": {
+      "openness": 0.75,
+      "conscientiousness": 0.65,
+      "extraversion": 0.5,
+      "agreeableness": 0.8,
+      "neuroticism": 0.5
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/greek-gods.html"
+  },
+  {
+    "name": "Hecate",
+    "gender": "female",
+    "category": "Underworld",
+    "description": "Goddess of crossroads, magic, and liminal spaces.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes curiosity, self-reliance, and reflective caution.",
+    "traits": {
+      "openness": 0.95,
+      "conscientiousness": 0.75,
+      "extraversion": 0.25,
+      "agreeableness": 0.55,
+      "neuroticism": 0.3
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/greek-gods.html"
+  },
+  {
+    "name": "Nike",
+    "gender": "female",
+    "category": "Personification",
+    "description": "Winged goddess personifying victory.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes focus, drive, competitiveness, and confidence.",
+    "traits": {
+      "openness": 0.6,
+      "conscientiousness": 0.9,
+      "extraversion": 0.8,
+      "agreeableness": 0.45,
+      "neuroticism": 0.25
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/personifications.html"
+  },
+  {
+    "name": "Nemesis",
+    "gender": "female",
+    "category": "Personification",
+    "description": "Goddess personifying retribution and the balancing of excess.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes principles, accountability, and unyielding judgment.",
+    "traits": {
+      "openness": 0.5,
+      "conscientiousness": 0.9,
+      "extraversion": 0.4,
+      "agreeableness": 0.35,
+      "neuroticism": 0.55
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/personifications.html"
+  },
+  {
+    "name": "Iris",
+    "gender": "female",
+    "category": "Olympian",
+    "description": "Messenger goddess associated with the rainbow.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes communication, flexibility, and helpfulness.",
+    "traits": {
+      "openness": 0.8,
+      "conscientiousness": 0.7,
+      "extraversion": 0.95,
+      "agreeableness": 0.85,
+      "neuroticism": 0.25
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/olympian-gods.html"
+  },
+  {
+    "name": "Tyche",
+    "gender": "female",
+    "category": "Olympian",
+    "description": "Goddess of fortune and changing luck.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes opportunism, adaptability, and openness to uncertainty.",
+    "traits": {
+      "openness": 0.9,
+      "conscientiousness": 0.35,
+      "extraversion": 0.7,
+      "agreeableness": 0.6,
+      "neuroticism": 0.65
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/olympian-gods.html"
+  },
+  {
+    "name": "Hebe",
+    "gender": "female",
+    "category": "Olympian",
+    "description": "Goddess of youth and cupbearer of the gods.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes warmth, cooperation, and spirited sociability.",
+    "traits": {
+      "openness": 0.65,
+      "conscientiousness": 0.65,
+      "extraversion": 0.8,
+      "agreeableness": 0.95,
+      "neuroticism": 0.2
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/olympian-gods.html"
+  },
+  {
+    "name": "Eos",
+    "gender": "female",
+    "category": "Titan",
+    "description": "Goddess of the dawn.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes optimism, initiative, and renewal.",
+    "traits": {
+      "openness": 0.8,
+      "conscientiousness": 0.7,
+      "extraversion": 0.85,
+      "agreeableness": 0.7,
+      "neuroticism": 0.35
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/titans.html"
+  },
+  {
+    "name": "Selene",
+    "gender": "female",
+    "category": "Titan",
+    "description": "Goddess personifying the moon.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes contemplation, inward focus, and imaginative sensitivity.",
+    "traits": {
+      "openness": 0.9,
+      "conscientiousness": 0.75,
+      "extraversion": 0.15,
+      "agreeableness": 0.65,
+      "neuroticism": 0.45
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/titans.html"
+  },
+  {
+    "name": "Leto",
+    "gender": "female",
+    "category": "Titan",
+    "description": "Mother of Apollo and Artemis; a revered goddess in Greek myth.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes endurance, maternal care, and resilience.",
+    "traits": {
+      "openness": 0.55,
+      "conscientiousness": 0.85,
+      "extraversion": 0.35,
+      "agreeableness": 0.9,
+      "neuroticism": 0.4
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/titans.html"
+  },
+  {
+    "name": "Rhea",
+    "gender": "female",
+    "category": "Titan",
+    "description": "Titaness associated with motherhood and the generation of Olympian gods.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes protectiveness, patience, and steadfast affection.",
+    "traits": {
+      "openness": 0.55,
+      "conscientiousness": 0.9,
+      "extraversion": 0.45,
+      "agreeableness": 0.9,
+      "neuroticism": 0.35
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/titans.html"
+  },
+  {
+    "name": "Gaia",
+    "gender": "female",
+    "category": "Primordial",
+    "description": "Primordial goddess and personification of the Earth.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes nurturance, stability, and long-range perspective.",
+    "traits": {
+      "openness": 0.7,
+      "conscientiousness": 0.85,
+      "extraversion": 0.35,
+      "agreeableness": 0.8,
+      "neuroticism": 0.3
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/primeval-gods.html"
+  },
+  {
+    "name": "Nyx",
+    "gender": "female",
+    "category": "Primordial",
+    "description": "Primordial goddess personifying Night.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes depth, mystery, autonomy, and reflection.",
+    "traits": {
+      "openness": 0.9,
+      "conscientiousness": 0.7,
+      "extraversion": 0.1,
+      "agreeableness": 0.45,
+      "neuroticism": 0.25
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/primeval-gods.html"
+  },
+  {
+    "name": "Themis",
+    "gender": "female",
+    "category": "Titan",
+    "description": "Titaness associated with divine law, order, and custom.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes fairness, self-discipline, and consistent principles.",
+    "traits": {
+      "openness": 0.75,
+      "conscientiousness": 0.95,
+      "extraversion": 0.45,
+      "agreeableness": 0.7,
+      "neuroticism": 0.2
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/titans.html"
+  },
+  {
+    "name": "Dike",
+    "gender": "female",
+    "category": "Personification",
+    "description": "Goddess personifying justice.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes ethical consistency, attention to rules, and equity.",
+    "traits": {
+      "openness": 0.65,
+      "conscientiousness": 0.95,
+      "extraversion": 0.45,
+      "agreeableness": 0.75,
+      "neuroticism": 0.3
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/personifications.html"
+  },
+  {
+    "name": "Eris",
+    "gender": "female",
+    "category": "Personification",
+    "description": "Goddess personifying discord and strife.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes confrontation, provocation, and independence.",
+    "traits": {
+      "openness": 0.7,
+      "conscientiousness": 0.25,
+      "extraversion": 0.8,
+      "agreeableness": 0.1,
+      "neuroticism": 0.9
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/personifications.html"
+  },
+  {
+    "name": "Harmonia",
+    "gender": "female",
+    "category": "Olympian",
+    "description": "Goddess personifying harmony and concord.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes diplomacy, cooperation, and social balance.",
+    "traits": {
+      "openness": 0.7,
+      "conscientiousness": 0.8,
+      "extraversion": 0.6,
+      "agreeableness": 0.95,
+      "neuroticism": 0.15
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/olympian-gods.html"
+  },
+  {
+    "name": "Amphitrite",
+    "gender": "female",
+    "category": "Sea",
+    "description": "Sea goddess and consort of Poseidon.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes poise, steadiness, and quiet influence.",
+    "traits": {
+      "openness": 0.6,
+      "conscientiousness": 0.85,
+      "extraversion": 0.35,
+      "agreeableness": 0.7,
+      "neuroticism": 0.35
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/greek-gods.html"
+  },
+  {
+    "name": "Eileithyia",
+    "gender": "female",
+    "category": "Olympian",
+    "description": "Goddess of childbirth and labor.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes compassion, responsibility, and supportive care.",
+    "traits": {
+      "openness": 0.55,
+      "conscientiousness": 0.9,
+      "extraversion": 0.5,
+      "agreeableness": 0.95,
+      "neuroticism": 0.4
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/olympian-gods.html"
+  },
+  {
+    "name": "Helios",
+    "gender": "male",
+    "category": "Titan",
+    "description": "Sun god who drives the solar chariot across the sky.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes consistency, visibility, duty, and purpose.",
+    "traits": {
+      "openness": 0.65,
+      "conscientiousness": 0.95,
+      "extraversion": 0.7,
+      "agreeableness": 0.5,
+      "neuroticism": 0.25
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/titans.html"
+  },
+  {
+    "name": "Hypnos",
+    "gender": "male",
+    "category": "Personification",
+    "description": "God personifying sleep.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes calm, gentleness, and unhurried reflection.",
+    "traits": {
+      "openness": 0.6,
+      "conscientiousness": 0.6,
+      "extraversion": 0.15,
+      "agreeableness": 0.8,
+      "neuroticism": 0.1
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/personifications.html"
+  },
+  {
+    "name": "Thanatos",
+    "gender": "male",
+    "category": "Personification",
+    "description": "God personifying nonviolent death.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes reserve, inevitability, and emotional restraint.",
+    "traits": {
+      "openness": 0.4,
+      "conscientiousness": 0.85,
+      "extraversion": 0.1,
+      "agreeableness": 0.4,
+      "neuroticism": 0.15
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/personifications.html"
+  },
+  {
+    "name": "Morpheus",
+    "gender": "male",
+    "category": "Dream spirit",
+    "description": "Dream deity associated with shaping human forms in dreams.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes imagination, observation, and quiet creativity.",
+    "traits": {
+      "openness": 1.0,
+      "conscientiousness": 0.6,
+      "extraversion": 0.15,
+      "agreeableness": 0.65,
+      "neuroticism": 0.4
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/greek-gods.html"
+  },
+  {
+    "name": "Pan",
+    "gender": "male",
+    "category": "Rustic",
+    "description": "God of the wild, shepherds, flocks, and rustic music.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes playfulness, adventurousness, and spontaneous energy.",
+    "traits": {
+      "openness": 0.85,
+      "conscientiousness": 0.25,
+      "extraversion": 0.9,
+      "agreeableness": 0.55,
+      "neuroticism": 0.65
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/greek-gods.html"
+  },
+  {
+    "name": "Asclepius",
+    "gender": "male",
+    "category": "Olympian",
+    "description": "God of healing and medicine.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes careful inquiry, service, and methodical skill.",
+    "traits": {
+      "openness": 0.85,
+      "conscientiousness": 0.95,
+      "extraversion": 0.35,
+      "agreeableness": 0.9,
+      "neuroticism": 0.3
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/olympian-gods.html"
+  },
+  {
+    "name": "Triton",
+    "gender": "male",
+    "category": "Sea",
+    "description": "Sea god often described as a herald of Poseidon.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes communication, dynamism, and readiness to act.",
+    "traits": {
+      "openness": 0.65,
+      "conscientiousness": 0.7,
+      "extraversion": 0.85,
+      "agreeableness": 0.55,
+      "neuroticism": 0.4
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/greek-gods.html"
+  },
+  {
+    "name": "Proteus",
+    "gender": "male",
+    "category": "Sea",
+    "description": "Shape-shifting old sea god and prophetic figure.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes adaptability, insight, and privacy.",
+    "traits": {
+      "openness": 0.95,
+      "conscientiousness": 0.65,
+      "extraversion": 0.2,
+      "agreeableness": 0.45,
+      "neuroticism": 0.35
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/greek-gods.html"
+  },
+  {
+    "name": "Phobos",
+    "gender": "male",
+    "category": "Personification",
+    "description": "Divine personification of fear and panic.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes alertness, emotional reactivity, and caution.",
+    "traits": {
+      "openness": 0.45,
+      "conscientiousness": 0.45,
+      "extraversion": 0.35,
+      "agreeableness": 0.25,
+      "neuroticism": 1.0
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/personifications.html"
+  },
+  {
+    "name": "Deimos",
+    "gender": "male",
+    "category": "Personification",
+    "description": "Divine personification of dread or terror.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes intensity, forceful presence, and unease.",
+    "traits": {
+      "openness": 0.4,
+      "conscientiousness": 0.35,
+      "extraversion": 0.75,
+      "agreeableness": 0.2,
+      "neuroticism": 0.95
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/personifications.html"
+  },
+  {
+    "name": "Prometheus",
+    "gender": "male",
+    "category": "Titan",
+    "description": "Titan associated with foresight and the gift of fire to humanity.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes inventiveness, conviction, and concern for others.",
+    "traits": {
+      "openness": 1.0,
+      "conscientiousness": 0.85,
+      "extraversion": 0.55,
+      "agreeableness": 0.85,
+      "neuroticism": 0.4
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/titans.html"
+  },
+  {
+    "name": "Atlas",
+    "gender": "male",
+    "category": "Titan",
+    "description": "Titan condemned to hold up the heavens.",
+    "rationale": "Author-designed archetype interpretation: Emphasizes endurance, burden-bearing, and reliability.",
+    "traits": {
+      "openness": 0.5,
+      "conscientiousness": 1.0,
+      "extraversion": 0.25,
+      "agreeableness": 0.55,
+      "neuroticism": 0.55
+    },
+    "source_url": "https://www.theoi.com/greek-mythology/titans.html"
+  }
+]
